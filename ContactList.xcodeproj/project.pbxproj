@@ -14,6 +14,8 @@
 		49FDC96D222412BD0038D991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FDC96B222412BD0038D991 /* LaunchScreen.storyboard */; };
 		49FDC978222412BD0038D991 /* ContactListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDC977222412BD0038D991 /* ContactListTests.swift */; };
 		49FDC983222412BD0038D991 /* ContactListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDC982222412BD0038D991 /* ContactListUITests.swift */; };
+		49FDC991222415CE0038D991 /* ContactStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDC990222415CE0038D991 /* ContactStruct.swift */; };
+		49FDC9932224227C0038D991 /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDC9922224227C0038D991 /* ContactInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		49FDC97E222412BD0038D991 /* ContactListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FDC982222412BD0038D991 /* ContactListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListUITests.swift; sourceTree = "<group>"; };
 		49FDC984222412BD0038D991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FDC990222415CE0038D991 /* ContactStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStruct.swift; sourceTree = "<group>"; };
+		49FDC9922224227C0038D991 /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				49FDC962222412BB0038D991 /* AppDelegate.swift */,
 				49FDC964222412BB0038D991 /* ViewController.swift */,
 				49FDC966222412BB0038D991 /* Main.storyboard */,
+				49FDC9922224227C0038D991 /* ContactInfoViewController.swift */,
+				49FDC990222415CE0038D991 /* ContactStruct.swift */,
 				49FDC969222412BD0038D991 /* Assets.xcassets */,
 				49FDC96B222412BD0038D991 /* LaunchScreen.storyboard */,
 				49FDC96E222412BD0038D991 /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FDC965222412BB0038D991 /* ViewController.swift in Sources */,
+				49FDC9932224227C0038D991 /* ContactInfoViewController.swift in Sources */,
+				49FDC991222415CE0038D991 /* ContactStruct.swift in Sources */,
 				49FDC963222412BB0038D991 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
